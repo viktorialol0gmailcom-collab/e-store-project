@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Inter';        
+  src: url("./assets/fonts/Inter_18pt-Medium.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;            
+}
+
+body {
+  font-family: "Inter";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+html
+
+
+
+.conteiner{
+    padding: 0 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-height: 88px;
+    gap: 52px;
+}
+.header__logo{
+    margin: 32px 0px 32px 167px;
+    align-items: center;
+    max-width: 720px;
+    width: 5%;
+}
+input{
+    border: none;
+    background: none;
+    width: 372px;
+    height: 56px;
+    gap: 8px;
+    outline: none;  
+}
+
+
+.search__box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 372px;
+    height: 56px;
+    background: #f5f5f5;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.head__navigation{
+    display: flex;
+    gap: 52px;   
+    list-style: none;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+.head__navigation a{
+    text-decoration: none;
+    color: black;
+    font-family: Inter; 
+    size: 16px;
+    line-height: 100%;
+}
+#About_nav{
+    opacity: 30%;
+}
+#Contact_nav{
+    opacity: 30%;
+}
+#Blog_nav{
+    opacity: 30%;
+}
+.nav__icons{
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+.main__section__banner{
+    height: 632px;
+    width: 100%;
+    background-color: #211C24; 
+    padding-top: 188px;
+    padding-left: 160px;
+    box-sizing: border-box;
+
+}
+.main__section-text{
+    width:714px;
+    height: 256px;
+}
+.main__section-text h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    color: #f5f5f5;
+    opacity: 40%;
+}
+.main__section-text h1{
+    margin-top: 24px;
+    height: 72px;
+    font-weight: 100;
+    font-size: 96px;
+    line-height: 72px;
+    letter-spacing: 5px;
+    color: #f5f5f5;
+} 
+.main__section-text span{
+    font-weight: 600;
+}
+.main__section-text p{
+    margin-top: 24px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #909090;
+}
+.main__section-text button{
+    margin-top: 24px;
+    background: none;
+    width: 191px;
+    height: 56px;
+    border-radius: 6px;
+    border-width: 1px;
+    gap: 8px;
+    border-color: #f5f5f5;
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.iphone__img{
+    margin-left: 714px;
+    margin-top: -444px;
+}
+.main__section-two{
+    display: flex;
+
+}
+.ps__banner{
+    width: 720px;
+    height: 328px;
+    display: flex;
+    background-color: #fff;
+}
+
+.ps__banner-text{
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 100px;
+    margin-right: 48px;
+}
+
+.ps__banner-text h1{
+    font-size: 49px;
+    font-weight: 400;
+    font-style: Medium;
+    color: black;
+}
+
+.ps__banner-text p{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    color: #909090;
+}
+
+.headphones__banner{
+    width: 360px;
+    height: 272px;
+    background-color: #EDEDED;
+    display: flex;
+}
+
+.headphones__banner-text{
+    width: 160px;
+    height: 176px;
+    gap: 8px;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+.headphones__banner-text h1{
+    font-weight: 300;
+    font-style: Light;
+    font-size: 29px;
+    line-height: 40px;
+    flex-direction: column;
+}
+
+.headphones__banner-text span{
+    font-weight: 500;
+}
+
+.headphones__banner-text p{
+    height: 48px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    color: #909090;
+}
+
+.second__banner{
+    display: flex;
+}
+
+.vr__banner{
+    width: 360px;
+    height: 272px;
+    display: flex;
+    background-color: #353535;
+}
+
+.vr__banner img{
+    width: 136px;
+    height: 190px;
+    margin-top: 41px;
+}
+
+.vr__banner-text{
+    width: 160px;
+    height: 160px;
+    gap: 8px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-bottom: 56px;
+    margin-right: 48px;
+}
+
+.vr__banner-text h1{
+    font-weight: 300;
+    font-style: Light;
+    font-size: 29px;
+    line-height: 40px;
+    color: white;
+}
+
+.vr__banner-text span{
+    font-weight: 500;
+    font-style: Medium;
+    color: white;
+    line-height: 24px;
+}
+
+.vr__banner-text p{
+    width: 160px;
+    height: 72px;
+    color: #909090;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.third__banner{
+    display: flex;
+    background-color: #EDEDED;
+    width: 720px;
+    height: 600px;
+}
+
+.third__banner img{
+    width: 292px;
+    height: 502px;
+    margin-top: 49px;
+}
+
+.macbook__banner{
+    margin-top: 164px;
+    margin-left: 53px;
+    width: 360px;
+    height: 272px;
+    max-width: 360px;
+    gap: 16px;
+}
+
+.macbook__banner h1{
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 56px;
+    width: 360px;
+    height: 112px;
+    margin-bottom: 16px;
+}
+
+.macbook__banner span{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 56px;
+}
+
+.macbook__banner p{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #909090;
+}
+
+.macbook__banner button{
+    background: none;
+    width: 191px;
+    height: 56px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #000000;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.main__section-three{
+    background-color: #FAFAFA;
+    height: 352px;
+}
+
+.main__section-three-text{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+}
+
+.main__section-three-text h3{
+
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   letter-spacing: 1%;
+}
+
+.main__section-three-arrow{
+    width: 80px;
+    height: 32px;
+    gap: 16px;
+    margin-right: 160px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.main__section-three-categories{
+    display: flex;
+    margin-left: 160px;
+    margin-bottom: 80px;
+}
+
+.main__section-three-categories div{
+    width: 160px;
+    height: 128px;
+    background-color: #EDEDED;
+    margin-right: 32px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.main__section-three-categories img{
+    width: 48px;
+    height: 48px;
+    margin: 24px 56px 8px 56px;
+}
+.main__section-three-categories p{
+    display: flex;
+    justify-content: center;
+}
+
+.main__section-four-text{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 56px;
+    width: 1120px;
+    height: 32px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.main__section-four-text h4{
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+.new-arrival h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+.new-arrival hr{
+    width: 100px;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 5px;
+}
+.main__section-four-products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    width: 831px;
+    margin-left: 150px;
+}
+.main__section-four-products div{
+    width: 268px;
+height: 432px;
+border-radius: 9px;
+background-color: #F6F6F6;
+gap: 16px;
+
+}
+.main__section-four-products h4{
+    display: flex;
+    justify-content: end;
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.main__section-four-products img{
+    margin-left: 53px;
+}
+.main__section-four-products h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.main__section-four-products p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+}
+.main__section-four-products button{
+    margin-top: 24px;
+    margin-left: 40px;
+    background-color: #000000;
+    width: 188px;
+    height: 48px;
+    border-radius: 6px;
+    border-width: 1px;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.main__section-four-products a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.main__section-five{
+    display: flex;
+    margin-top: 56px;
+}
+.main__section-five button {
+  margin-top: 16px;
+    margin-left: 32px;
+    background-color: #FAFAFA;
+    width: 191px;
+    height: 56px;
+    border-radius: 6px;
+    border-width: 1px;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 56px;
+}
+    
+
+.main__section-five h2{
+font-weight: 300;
+font-size: 33px;
+line-height: 48px;
+    margin-left: 32px;
+}
+.main__section-five p{
+    margin-top: 16px;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #909090;
+}
+.main__section-five a{
+    text-decoration: none;
+    color: #000000;
+}
+.ipad__pro{
+    background-color: #F9F9F9;
+}
+.ipad__pro button{
+    background-color: #F9F9F9;
+}
+.samsung__galaxy{
+    background-color: #EAEAEA;
+}
+.samsung__galaxy button{
+    background-color: #EAEAEA;
+}
+.macbook__pro{
+    background-color: #2C2C2C;
+}
+.macbook__pro h2{
+    color: #FFFFFF;
+}
+.macbook__pro button{
+    background-color: #2C2C2C;
+    border-color: #FFFFFF;
+}
+.macbook__pro a{
+    color: #FFFFFF;
+}
+.popular__products img{
+    width: 360px;
+    height: 327px;
+    margin-top: 22px;
+    margin-bottom: 27px;
+}
+.ipad__pro img{
+    width: 360px;
+    height: 366px;
+    margin-bottom: 10px;
+}
+.samsung__galaxy img{
+    margin-bottom: 16px;
+    width: 360px;
+    height: 360px;
+}
+.macbook__pro img{
+    width: 345px;
+    height: 376px;
+    margin-bottom:0;
+}
+.main__section-six h2{
+    margin-top: 80px;
+    margin-left: 160px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.main__section-six-products{
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+    height: 432px;
+    margin-left: 160px;
+}
+.main__section-six-products div{
+    margin-right: 16px;
+    width: 268px;
+    height: 432px;
+    border-radius: 9px;
+    background-color: #F6F6F6;
+}
+.main__section-six-products h4{
+    display: flex;
+    justify-content: end;
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.main__section-six-products img{
+    margin-left: 54px;
+}
+.main__section-six-products h3{
+    text-align: center;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.main__section-six-products  p{
+margin-top: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+.main__section-six-products button{
+    margin-top: 24px;
+    margin-left: 40px;
+    background-color: #000000;
+    width: 188px;
+    height: 48px;
+    border-radius: 6px;
+    border-width: 1px;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.main__section-six-products a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.main__section-seven{
+    margin-top: 80px;
+    background-image: url(./assets/images/main_seven.png);
+    background-size: 1440px;
+    height: 448px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main__section-seven h2{
+    margin-top: 159px;
+    font-weight: 100;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.main__section-seven span{
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.main__section-seven p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #787878;
+    margin-bottom: 40px;
+}
+.main__section-seven button{
+    background: none;
+    width: 188px;
+    height: 48px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.main__section-seven a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer{
+    height: 504px;
+    background-color: #000000;
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__nav-text{
+    width: 384px;
+height: 48px;
+    margin-top: 104px;
+    margin-left: 160px;
+}
+.footer__nav-text p{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    color: #CFCFCF;
+    margin-top: 24px;
+}
+.footer__nav-services{
+    width: 295.5px;
+    height: 256px;
+    gap: 8px;
+    margin-top: 104px
+}
+.footer__nav-services h2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+
+}
+.footer__nav-services li{
+    margin-top: 8px;
+font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+list-style: none;
+}
+.footer__nav-services a{
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #CFCFCF;
+}
+.footer__nav-assistance{
+    width: 295.5px;
+    height: 256px;
+    margin-top: 104px;
+
+}
+.footer__nav-assistance h2{
+    color: #FFFFFF;
+    
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+}
+.footer__nav-assistance li{
+    margin-top: 8px;
+font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+list-style: none;
+}
+.footer__nav-assistance a{
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #CFCFCF;
+}
+.footer__contact{
+    width: 173px;
+height: 16px;
+display: flex;
+justify-content: space-between;
+    margin-top: 28px;
+    margin-left: 160px;
+}
