@@ -1,0 +1,404 @@
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./details_page.css">
+    <script src="./products_page.js"></script>
+    <script src="./detail_page.js"></script>
+    </head>
+    <body>
+        <header class="header">
+        <div class="container">
+        <nav class="header__nav">
+            <div class="header__logo">
+                <a href="/"><img src="./img/logo_header.svg" alt="/"></a>
+                
+            </div>
+            <div class="search__box">
+                <div class="search">
+                    <img src="./img/Search.svg" alt="icon" class="icon">
+                    <input  class="placeholder_text" placeholder="Search">
+                </div>
+                </div>
+                <nav class="head__nav-wrap">
+                    <ul class="head__navigation">
+                        <li><a href="#" id="Home_nav">Home</a></li>
+                        <li><a href="#" id="About_nav">About</a></li>
+                        <li><a href="#" id="Contact_nav">Contact Us</a></li>
+                        <li><a href="#" id="Blog_nav">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="nav__icons">
+                    <a href="/"><img src="./img/Favorites.svg" alt="#"></a>
+                    <a href="/"><img src="./img/Cart.svg" alt="#"></a>
+                    <a href="/"><img src="./img/User.svg" alt="#"></a>
+                </div>
+                <button class="burger" type="button" aria-label="Menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+        <hr>
+    </header>
+    <main class="main">
+        <section class="main__nav">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/main_page/main_str.html">Home</a></li>
+                <li><a href="#"><img src="./img/Vector 9.svg" alt="#"></a></li>
+                <li><a href="#">Catalog</a></li>
+                <li><a href="#"><img src="./img/Vector 9.svg" alt="#"></a></li>
+                <li><a href="#">Smartphones</a></li>
+                <li><a href="#"><img src="./img/Vector 9.svg" alt="Vector"></a></li>
+                <li><a href="#">Apple</a></li>
+                <li><a href="#"><img src="./img/Vector 9.svg" alt="Vector"></a></li>
+                <li><a href="#" id="iphone__14">iPhone 14 Pro Max</a></li>
+            </ul>
+        </section>
+        <section class="main__section">
+            <div class="main__section-Iphone-img">
+                <article class="iphone__colum-img">
+                    <img src="./img copy/iphone(1).svg" alt="iphone">
+                    <img src="./img copy/pr_Iphone(2).svg" alt="iphone">
+                    <img src="./img copy/prIphone(3).svg" alt="iphone">
+                    <img src="./img copy/prIphone(4).svg" alt="iphone">
+                </article>
+                <img class="main__photo" id="pd-image" src="" alt="Main_iphone">
+            </div>
+            <div class="main__section-info">
+                <div class="info__title">
+                    <h1 id="pd-name"></h1>
+                    <p>
+                      <span id="pd-price"></span> 
+                      <span id="pd-old-price"></span> 
+                     </p>
+                </div>
+                <div class="info__colors">
+                    <p>Select color :</p>
+                    <button id="black"><a href="#" ></a></button>
+                    <button id="purple"><a href="#" ></a></button>
+                    <button id="red"><a href="#" ></a></button>
+                    <button id="gold"><a href="#" ></a></button>
+                    <button id="silver"><a href="#"></a></button>
+                </div>
+                <div class="info__button">
+                    <a href="#" ><button id="GB">128GB</button></a>
+                    <a href="#"><button>256GB</button></a>
+                    <a href="#"><button>512GB</button></a>
+                    <a href="#" ><button id="TB">1TB</button></a>
+                </div>
+                <div class="info__detail">
+                    <div>
+                        <img src="./img copy/Screensize.svg" alt="Screensize">
+                        <h2>Screen size <br><span>6.7"</span></h2>
+                    </div>
+                    <div>
+                        <img src="./img copy/CPU.svg" alt="CPU">
+                        <h2>CPU <br> <span>Apple A16 Bionic</span></h2>
+                    </div>
+                    <div><img src="./img copy/numbOfCores.svg" alt="numb">
+                    <h2>Number of Cores <br> <span>6</span></h2>
+                </div>
+                    <div>
+                        <img src="./img copy/mainCam.svg" alt="camera">
+                        <h2>Main camera <br> <span> 48-12 -12 MP</span></h2>
+                    </div>
+                    <div> <img src="./img copy/mainCam.svg" alt="camera">
+                        <h2>Front-camera <br> <span>12 MP</span></h2>
+                    </div>
+                    <div> 
+                        <img src="./img copy/battarey.svg" alt="battarey">
+                    <h2>Battery capacity <br><span>
+                    4323 mAh</span></h2>
+                 </div>
+                </div> 
+                <p class="info__text">Enhanced capabilities thanks toan enlarged display of 6.7 inchesand work without rechargingthroughout the day. Incredible photosas in weak, yesand in bright lightusing the new systemwith two cameras <span>more...</span></p>
+                <div class="info__buttons">
+                    <a href="#" ><button id="button__one">Add to Wishlist</button></a>
+                    <a href="#"><button id="button__two" >Add to Card</button></a>
+                </div>
+                <div class="info__icons">
+                    <div class="delivery">
+                        <img src="./img copy/Delivery.svg" alt="delivery">
+                        <h3>Free Delivery<br><span> 1-2 day</span> </h3>
+                    </div>
+                    <div class="in__stock">
+                        <img src="./img copy/Stock.svg" alt="stock">
+                        <h3>In Stock <span>Today</span> </h3>
+                    </div>
+                    <div class="guaranteed">
+                            <img src="./img copy/Guaranteed.svg" alt="car">
+                            <h3>Guaranteed <span>1 year</span></h3>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__details">
+            <div class="main__details__content">
+                <h2>Details</h2>
+                <p>Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.</p>
+                <div class="main__details__content-text">
+                    <h2>Screen</h2>
+                    <span>
+                        <h3>Screen diagonal</h3>
+                        <p>6.7"</p>
+                    </span>
+                    <hr>
+                    <span> 
+                        <h3>The screen resolution</h3>
+                        <p>2796x1290</p>
+                    </span>
+                    <hr>
+                    <span>
+                        <h3>The screen refresh rate</h3>
+                        <p>120 Hz</p>
+                    </span>
+                    <hr>
+                    <span>
+                        <h3>The pixel density</h3>
+                        <p>460 ppi</p>
+                    </span>
+                    <hr>
+                    <span>
+                        <h3>Screen type</h3>
+                        <p>OLED</p>
+                    </span>
+                    <hr>
+                    <span>
+                        <h3>Additionally</h3>
+                        <p>Dynamic Island <br>Always-On display <br>HDR display <br>True Tone <br>Wide color (P3)</p>
+                    </span>
+                    <hr>
+                </div>
+                <div class="main__details__content-info"> 
+                    <h2>CPU</h2>
+                    <span>
+                        <h3>CPU</h3>
+                        <p>A16 Bionic</p>
+                    </span>
+                    <hr>
+                    <span> 
+                        <h3>Number of cores</h3>
+                        <p>6</p>
+                    </span>
+                    <hr>
+                </div>
+                <a href="#" class="btn__link"><button id="btn">View More <img src="./img/down.svg" alt="arrow"></button></a>
+            </div>
+        </section>
+        <section class="main__section-reviews">
+            <h2>Reviews</h2>
+            <div class="overall__rating">
+                <div class="overall__rating-block">
+                    <h3>4.8</h3>
+                <p>of 125 reviews</p>
+                <img src="./img copy/Stars.svg" alt="stars">
+                </div>
+                <div class="overall__ratting-schedule">
+                    <span> <h4>Excellent</h4>
+                        <img src="./img copy/slider__100.svg" alt="slider">
+                        <p>100</p>
+                    </span>
+                    <span>
+                        <h4>Good</h4>
+                        <img src="./img copy/Slider__11.svg" alt="slider">
+                        <p>11</p>
+                    </span>
+                    <span>
+                        <h4>Average</h4>
+                        <img src="./img copy/Slider3.svg" alt="slider">
+                        <p>3</p>
+                    </span>
+                    <span>
+                        <h4>Below Average</h4>
+                        <img src="./img copy/Slider_8.svg" alt="slider">
+                        <p>8</p>
+                    </span>
+                    <span>
+                        <h4>Poor</h4>
+                        <img src="./img copy/Slider_1.svg" alt="slider">
+                        <p>1</p>
+                    </span>
+                </div>
+                </div>
+                <div class="main__commentaries">
+                    <form action="send-comment" method="post">
+                         <textarea name="comment" placeholder="Leave Comment" rows="1" class="comm-textarea"></textarea>
+                         <button type="submit">Отправить</button>
+                        </form>
+            </div>
+        </section>
+        <section class="main__comm__section">
+  <article class="review-card">
+    <div class="card-avatar">
+      <img src="./img copy/User Pic 1.svg" alt="Grace Carey">
+    </div>
+    <div class="card-text">
+      <div class="card-title">
+        <h3 class="review-author">Grace Carey</h3>
+        <span class="review-date">24 January 2023</span>
+      </div>
+      <div class="review-text">
+        <img src="./img copy/Stars__grace.svg" alt="Grace__stars">
+      <p>
+        I was a bit nervous to be buying a secondhand phone from Amazon, but I couldn’t be happier with my purchase!! I have a pre-paid data plan so I was worried that this phone wouldn’t connect with my data plan, since the new phones don’t have the physical Sim tray anymore, but couldn’t have been easier! I bought an Unlocked black iPhone 14 Pro Max in excellent condition and everything is PERFECT. It was super easy to set up and the phone works and looks great. It truly was in excellent condition. Hig
+        hly recommend!!!🖤
+      </p>
+      </div>
+    </div>
+  </article>
+
+  <article class="review-card">
+    <div class="card-avatar">
+      <img src="./img copy/User Pic2.svg" alt="Ronald Richards">
+    </div>
+    <div class="card-text">
+      <div class="card-title">
+        <h3 class="review-author">Ronald Richards</h3>
+        <span class="review-date">24 January 2023</span>
+      </div>
+      <div class="review-text">
+        <img src="./img copy/Stars_full.svg" alt="Ronald__stars">
+      <p>
+        This phone has 1T storage and is durable. Plus all the new iPhones have a C port! Apple is phasing out the current ones! (All about the Benjamin's) So if you want a phone that's going to last grab an iPhone 14 pro max and get several cords and plugs.
+      </p>
+      </div>
+    </div>
+  </article>
+
+  <article class="review-card">
+    <div class="card-avatar">
+      <img src="./img copy/User Darcy.svg" alt="Darcy King">
+    </div>
+    <div class="card-text">
+      <div class="card-title">
+        <h3 class="review-author">Darcy King</h3>
+        <span class="review-date">24 January 2023</span>
+      </div>
+      <div class="review-text">
+        <img src="./img copy/Stars__grace.svg" alt="Stars__grace">
+      <p>
+        I might be the only one to say this but the camera is a little funky. Hoping it will change with a software update: otherwise, love this phone! Came in great condition
+      </p>
+      <div class="review-images">
+        <img src="./img copy/Review_Image1.svg" alt="Phone detail 1">
+        <img src="./img copy/Review_Image2.svg" alt="Phone detail 2">
+      </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="review-card"id="john__Malcolm">
+    <div class="card-avatar">
+      <img src="./img copy/User Pic2.svg" alt="John Malcolm">
+    </div>
+    <div class="card-text">
+      <div class="card-title">
+        <h3 class="review-author">John Malcolm</h3>
+        <span class="review-date">24 January 2023</span>
+      </div>
+      <div class="review-text">
+        <img src="./img copy/Stars__grace.svg" alt="John__stars">
+      <p>
+        In Washington, it is already difficult to surprise with the opening of a new institution, but it is still possible. Especially if it is a True Cost project. Here you pay an entrance fee and get meals at cost price.
+      </p>
+      </div>
+    </div>
+  </article>
+
+    <a href="#" class="btn__link"><button id="btn">View More <img src="./img/down.svg" alt="arrow"></button></a>
+
+</section>
+        <section class="main__section-two">
+            <h2>Related Products</h2>
+            <div class="main__section-two-products">
+            <div class="apple_iphone">
+                <h4><img src="./img/Like.svg" alt="favourite"></h4>
+                <img src="./img/Iphone 14 pro  (4).svg" alt="iphone">
+                <h3>Apple iPhone 14 Pro 512GB Gold (MQ233)</h3>
+                <p>$1437</p>
+                <button><a href="#">Buy Now</a></button>
+            </div>
+            <div class="airpods__max__silver">
+                <h4><img src="./img/Like.svg" alt="#"></h4>
+                <img src="./img/airpodsMax.svg" alt="airpods">
+                        <h3>AirPods Max Silver Starlight Aluminium </h3>
+                        <p>$549</p>
+                        <button><a href="#">Buy Now</a></button>
+            </div>
+            <div class="apple__watch__series">
+                <h4><img src="./img/Like.svg" alt="#"></h4>
+                <img src="./img/apple_watch.svg" alt="watch_pic">
+                        <h3>Apple Watch Series 9 GPS 41mm Starlight Aluminium </h3>
+                        <p>$399</p>
+                        <button><a href="#">Buy Now</a></button>
+            </div>
+            <div class="iphone_1tb">
+                <h4><img src="./img/Like.svg" alt="#"></h4>
+                <img src="./img/Iphone 14 pro 1TB.svg" alt="#">
+                <h3>Apple iPhone 14 Pro 1TB Gold (MQ2V3)</h3>
+                <p>$1499</p>
+                <button><a href="#">Buy Now</a></button>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer__nav">
+            <div class="footer__nav-text">
+                <img src="./img/footer_logo.svg" alt="logo">
+                <p>We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
+
+            </div>
+            <div class="footer__nav-services">
+                <h2>Services</h2>
+                <ul>
+                    <li><a href="#">Bonus program</a></li>
+                    <li><a href="#">Gift cards</a></li>
+                    <li><a href="#">Credit and payment</a></li>
+                    <li><a href="#">Service contracts</a></li>
+                    <li><a href="#">Non-cash account</a></li>
+                    <li><a href="#">Payment</a></li>
+                </ul>
+            </div>
+            <div class="footer__nav-assistance">
+                <h2>Assistance to the buyer</h2>
+                <ul>
+                    <li><a href="#">Find an order</a></li>
+                    <li><a href="#">Terms of delivery</a></li>
+                    <li><a href="#">Exchange and return of goods</a></li>
+                    <li><a href="#">Guarantee</a></li>
+                    <li><a href="#">Frequently asked questions</a></li>
+                    <li><a href="#">Terms of use of the site</a></li>
+                </ul>
+            </div>
+        </section>
+                <section class="footer__contact">
+       <a href="#"> <img src="./img/Twitter.svg" alt="#"></a>
+        <a href="#"><img src="./img/Facebook.svg" alt="#"></a>
+        <a href="#"><img src="./img/Tiktok.svg" alt="#"></a>
+        <a href="#"><img src="./img/Twitter.svg" alt="#"></a>
+        </section>
+            </footer>
+    <!-- <script>
+        const burger = document.querySelector('.burger');
+        const headerNav = document.querySelector('.header__nav');
+        if (burger && headerNav) {
+            burger.addEventListener('click', () => {
+                const opened = headerNav.classList.toggle('is-open');
+                burger.classList.toggle('is-active', opened);
+                burger.setAttribute('aria-expanded', String(opened));
+            });
+        }
+    </script> -->
+    <!-- 1. Сначала подключаем файл с товарами (data.js), который мы создали в прошлом шаге -->
+    </body>
+</html>
