@@ -26,7 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
     const mainSection = document.querySelector('.main__section');
     if (mainSection) {
-      mainSection.innerHTML = `<h2>Product not found</h2>`
+      mainSection.innerHTML = `
+          <h2>Product not found</h2>
+            `
     }
   }
+  
 });

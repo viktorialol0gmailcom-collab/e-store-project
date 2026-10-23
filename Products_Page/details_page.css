@@ -864,9 +864,14 @@ justify-content: space-between;
   }
   .main__nav {
     display: none;
+  margin-top: 24px;
+  margin-left: 0; 
   }
   .main__section {
     flex-direction: column;
+    margin-left: 0;
+  width: 100%;
+  margin-bottom: 0;
   }
   .main__section-Iphone-img {
     flex-direction: column-reverse;
@@ -890,12 +895,12 @@ justify-content: space-between;
     width: 44px;
     height: auto;
   }
-  .main__section-info {
-    width: 100%;
-    height: auto;
-    margin: 24px 0 0;
-    padding: 0 16px;
-  }
+.main__section-info {
+  margin-left: 0;
+  padding: 0 16px; 
+  width: 100%;
+  height: auto;
+}
   .info__title h1 {
     font-size: 32px;
     line-height: 38px;
@@ -1025,11 +1030,13 @@ justify-content: space-between;
     height: auto;
     padding: 24px 16px 40px;
   }
-  .main__details__content {
-    width: 100%;
-    height: auto;
-    padding: 24px 16px;
-  }
+ .main__details__content {
+  padding-top: 24px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  padding-left: 16px;   
+  width: 100%;           
+}
   .main__details__content h2 {
     font-size: 20px;
     line-height: 28px;
