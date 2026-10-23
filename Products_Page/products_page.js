@@ -5,6 +5,12 @@ const products = [
     price: 1437,
     oldPrice: 1500,
     image: './img/Iphone 14 pro  (4).svg',
+    images:[
+      "./img copy/img_iphone_duble_gold.webp",
+      "./img copy/img_iphone_front_gold.webp",
+      "./img copy/img_iphone_back_gold.webp",
+      "./img copy/img_iphone_left_gold.webp",
+    ]
   },
   {
     id: 'iphone-11-128gb-white',
@@ -12,6 +18,12 @@ const products = [
     price: 510,
     oldPrice: 600,
     image: './img/iphone 11(1).svg',
+    images:[
+      "./img copy/img_iphone11.webp",
+      "./img copy/iphone_11_left.webp",
+      "./img copy/img_iphone11_back.webp",
+      "./img copy/img_iphone_11_gr.webp",
+    ]
   },
   {
     id: 'iphone-14-pro-1tb-gold',
@@ -19,6 +31,12 @@ const products = [
     price: 1499,
     oldPrice: 1500,
     image: './img/Iphone 14 pro 1TB.svg',
+    images:[
+      "./img copy/img_iphone14Pro_duble.webp",
+      "./img copy/img_iphone14pro_front.img",
+      "./img copy/img_iphone14pro_back.img",
+      "./img copy/iphone_14Pro_left.img",
+    ]
   },
   {
     id: 'iphone-14-pro-1tb-gold-2', 
@@ -26,6 +44,12 @@ const products = [
     price: 1399,
     oldPrice: 1600,
     image: './img/Iphone_1TBGold.svg',
+    images:[
+      "./img copy/img_iphone_duble_gold.webp",
+      "./img copy/img_iphone_front_gold.webp",
+      "./img copy/img_iphone_back_gold.webp",
+      "./img copy/img_iphone_left_gold.webp",
+    ]
   },
   {
     id: 'iphone-14-pro-128gb-purple',
@@ -33,6 +57,12 @@ const products = [
     price: 1600,
     oldPrice: 2000,
     image: './img/Iphone 14 pro 1.svg',
+    images:[
+      "./img copy/iphone(1).svg",
+      "./img copy/pr_Iphone(2).svg",
+      "./img copy/prIphone(3).svg",
+      "./img copy/prIphone(4).svg",
+    ]
   },
   {
     id: 'iphone-13-mini-pink',
@@ -40,6 +70,12 @@ const products = [
     price: 850,
     oldPrice: 1999,
     image: './img/pink_iphone.svg',
+    images:[
+      "./img copy/img_iphone_duble_gold.webp",
+      "./img copy/img_iphone_front_gold.webp",
+      "./img copy/img_iphone_back_gold.webp",
+      "./img copy/img_iphone_left_gold.webp",
+    ]
   },
   {
     id: 'iphone-14-pro-256gb-black',
@@ -47,6 +83,12 @@ const products = [
     price: 1399,
     oldPrice: 1765,
     image: './img/black_iphone.svg',
+    images:[
+       "./img copy/iphone_gray_duble.webp",
+       "./img copy/iphone_gray_front.webp",
+      "./img copy/iphone_gray_back.webp",
+      "./img copy/gray.webp",
+    ]
 
   },
   {
@@ -55,5 +97,11 @@ const products = [
     price: 1399,
     oldPrice: 1800,
     image: './img/Iphone 14 pro 1TB.svg',
+     images:[
+      "./img copy/img_iphone14Pro_duble.webp",
+      "./img copy/img_iphone14pro_front.img",
+      "./img copy/img_iphone14pro_back.img",
+      "./img copy/iphone_14Pro_left.img",
+    ]
   }
 ];

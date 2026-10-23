@@ -4,6 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const productId = urlParams.get('id');
   const currentProduct = products.find(item => item.id === productId);
   if (currentProduct) {
+    const sideImagesContainer = document.getElementById('side-images');
+    if (sideImagesContainer && currentProduct.images) {
+  sideImagesContainer.innerHTML = currentProduct.images.map(imgUrl => `
+    <img src="${imgUrl}" alt="${currentProduct.name}">
+  `).join('');
+}
     const pdName = document.getElementById('pd-name');
     if (pdName) pdName.innerText = currentProduct.name;
     const breadcrumb = document.getElementById('iphone__14');
@@ -20,9 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
     const mainSection = document.querySelector('.main__section');
     if (mainSection) {
-      mainSection.innerHTML = `
-          <h2>Product not found</h2>
-          `
+      mainSection.innerHTML = `<h2>Product not found</h2>`
     }
   }
 });
